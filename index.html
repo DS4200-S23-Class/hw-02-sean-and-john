@@ -3,12 +3,90 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
+    <title> hw-02</title>
+    <div id="data-abstraction">
+        <div class="info">
+            <h1 class="centered"> Dataset Types</h1>
+            <table class="centered">
+                <tr>
+                  <th bgcolor="lightblue">Data</th>
+                  <th bgcolor="lightblue">Link</th>
+                  <th bgcolor="lightblue">Dataset Type</th>
+                </tr>
+                <tr>
+                  <td width="500px">UFO</td>
+                  <td width="500px"> <a href="../hw-02-sean-and-john/data/UFO.csv">UFO data</a></td>
+                  <td width="500px">Table</td>
+                </tr>
+                <tr>
+                    <td>Airports</td>
+                    <td><a href="../hw-02-sean-and-john/data/Airports.csv">Airport data</a></td>
+                    <td>Geometrical</td>
+                </tr>
+                <tr>
+                    <td>Google-Web</td>
+                    <td><a href="../hw-02-sean-and-john/data/Google-Web.txt">Google-Web data</a></td>
+                    <td>Network</td>
+                </tr>
+              </table>
+        </div>
+            <div>
+                <h1 class="centered"> Data Types</h1>
+                <h2> UFO</h2>
+                <ul> 
+                    <li>Row Data Type: Items</li> 
+                    <li>datetime: attribute
+                        <ul>
+                            <li>sequential</li>
+                        </ul>
+                    </li> 
+                    <li>state: attribute
+                        <ul>
+                            <li>categorical</li>
+                        </ul>
+                    </li>
+                    <li>country: attribute
+                        <ul>
+                            <li>categorical</li>
+                        </ul>
+                    </li> 
+                    <li>shape: attribute
+                        <ul>
+                            <li>categorical</li>
+                        </ul>
+                    </li>
+                    <li>duration(seconds): attribute
+                        <ul>
+                            <li>quantitative</li>
+                        </ul>
+                    </li>
+                </ul>
 
+                <h2> Airports</h2>
+                <ul> 
+                    <li>Row Data Type: Items</li> 
+                    <li>Latitutde: position</li> 
+                    <li>Longitude: position</li>
+                </ul>
 
+                <h2> Google-Web</h2>
+                <ul> 
+                    <li>Row Data Type: Edges </li> 
+                    <li>FromNodeId: Link</li> 
+                    <li>ToNodeId: Link</li>
+            </div>
+        </div>
+    </div>
+
+    <div id="task-abstraction">
+        <h1 class="centered"> Dataset Types</h1>
+
+    </div>
 </body>
 
 </html>
