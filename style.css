@@ -9,9 +9,21 @@ body {
     flex-direction: row;
     justify-content: left;
 }
-.my-rect:hover {
-    fill: red
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.my-circle:hover {
+.flex-item {
+    flex-grow: 1;
+}
+.my-rect {
+    color: blue;
+}
+.rect:hover {
+    color: red;
+}
+.circle:hover {
     stroke: black;
+    stroke-width: 5;
 }
