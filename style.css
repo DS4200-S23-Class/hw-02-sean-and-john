@@ -6,12 +6,12 @@ body {
 }
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: left;
 }
 .my-rect:hover {
     fill: red
 }
 .my-circle:hover {
-    stroke: #646464;
+    stroke: black;
 }
