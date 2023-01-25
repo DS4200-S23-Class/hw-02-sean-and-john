@@ -9,3 +9,9 @@ body {
     flex-direction: column;
     justify-content: left;
 }
+.my-rect:hover {
+    fill: red
+}
+.my-circle:hover {
+    stroke: #646464;
+}
